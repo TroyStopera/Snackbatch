@@ -1,8 +1,5 @@
-<manifest package="com.troystopera.undodelete"
-          xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest package="com.troystopera.snackbatch">
 
-    <application
-        android:label="@string/app_name"
-        android:supportsRtl="true"/>
+    <application/>
 
 </manifest>

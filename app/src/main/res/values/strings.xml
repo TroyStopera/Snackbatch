@@ -1,12 +1,8 @@
 <resources>
 
-    <string name="app_name">UndoDelete</string>
-
-    <string name="undo">Undo</string>
-
     <plurals name="default_message">
-        <item quantity="one">%d item has been deleted</item>
-        <item quantity="many">%d items have been deleted</item>
+        <item quantity="one">%d item has been affected</item>
+        <item quantity="many">%d items have been affected</item>
     </plurals>
 
 </resources>
