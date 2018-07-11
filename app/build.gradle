@@ -10,7 +10,7 @@ android {
         minSdkVersion 14
         targetSdkVersion 27
         versionCode 1
-        versionName "0.3.0-beta"
+        versionName "$version_name"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -30,3 +30,11 @@ dependencies {
     implementation "com.android.support:appcompat-v7:$support_version"
     implementation "com.android.support:design:$support_version"
 }
+
+ext {
+    PUBLISH_GROUP_ID = 'com.troystopera'
+    PUBLISH_ARTIFACT_ID = 'snackbatch'
+    PUBLISH_VERSION = "$version_name"
+}
+
+apply from: 'https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle'

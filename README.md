@@ -1,0 +1,4 @@
+# Snackbatch
+[ ![Download](https://api.bintray.com/packages/troystopera/Android/Snackbatch/images/download.svg)](https://bintray.com/troystopera/Android/Snackbatch/_latestVersion)
+
+Snackbatch is a simple library for batching actions and messages together for Android's Snackbar. Multiple items can be added to the Snackbatch, and a series of callbacks will be invoked during the lifetime of the Snackbar. I've created this sort of functionality in numerous apps, so I figured it may be helpful to just create a library. I am currently working on some basic documentation and a sample project that uses this library, so stay tuned.

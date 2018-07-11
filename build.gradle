@@ -3,16 +3,17 @@
 buildscript {
     ext.kotlin_version = '1.2.41'
     ext.support_version = "27.1.1"
+    ext.version_name = "0.3.0-beta"
+
     repositories {
         google()
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.2.0-alpha14'
+        classpath 'com.android.tools.build:gradle:3.3.0-alpha02'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
-
-        // NOTE: Do not place your application dependencies here; they belong
-        // in the individual module build.gradle files
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.3'
+        classpath 'com.github.dcendents:android-maven-plugin:1.2'
     }
 }
 
