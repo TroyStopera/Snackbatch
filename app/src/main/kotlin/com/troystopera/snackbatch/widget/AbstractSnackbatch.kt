@@ -22,10 +22,10 @@ abstract class AbstractSnackbatch<T>(
     var action: CharSequence? = null
         set(value) {
             field = value
-            snackbar.setAction(value, {
+            snackbar.setAction(value) {
                 onItemsAction(items)
                 items.clear()
-            })
+            }
         }
 
     init {
